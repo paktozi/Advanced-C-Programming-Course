@@ -1,0 +1,14 @@
+G:\programi\c# uprajneniq\C# Advanced\Official course\Stacks and Queues - Lab\StacksandQueuesLab\8.TrafficJam\bin\Debug\net6.0\8.TrafficJam.exe
+G:\programi\c# uprajneniq\C# Advanced\Official course\Stacks and Queues - Lab\StacksandQueuesLab\8.TrafficJam\bin\Debug\net6.0\8.TrafficJam.deps.json
+G:\programi\c# uprajneniq\C# Advanced\Official course\Stacks and Queues - Lab\StacksandQueuesLab\8.TrafficJam\bin\Debug\net6.0\8.TrafficJam.runtimeconfig.json
+G:\programi\c# uprajneniq\C# Advanced\Official course\Stacks and Queues - Lab\StacksandQueuesLab\8.TrafficJam\bin\Debug\net6.0\8.TrafficJam.dll
+G:\programi\c# uprajneniq\C# Advanced\Official course\Stacks and Queues - Lab\StacksandQueuesLab\8.TrafficJam\bin\Debug\net6.0\8.TrafficJam.pdb
+G:\programi\c# uprajneniq\C# Advanced\Official course\Stacks and Queues - Lab\StacksandQueuesLab\8.TrafficJam\obj\Debug\net6.0\8.TrafficJam.GeneratedMSBuildEditorConfig.editorconfig
+G:\programi\c# uprajneniq\C# Advanced\Official course\Stacks and Queues - Lab\StacksandQueuesLab\8.TrafficJam\obj\Debug\net6.0\8.TrafficJam.AssemblyInfoInputs.cache
+G:\programi\c# uprajneniq\C# Advanced\Official course\Stacks and Queues - Lab\StacksandQueuesLab\8.TrafficJam\obj\Debug\net6.0\8.TrafficJam.AssemblyInfo.cs
+G:\programi\c# uprajneniq\C# Advanced\Official course\Stacks and Queues - Lab\StacksandQueuesLab\8.TrafficJam\obj\Debug\net6.0\8.TrafficJam.csproj.CoreCompileInputs.cache
+G:\programi\c# uprajneniq\C# Advanced\Official course\Stacks and Queues - Lab\StacksandQueuesLab\8.TrafficJam\obj\Debug\net6.0\8.TrafficJam.dll
+G:\programi\c# uprajneniq\C# Advanced\Official course\Stacks and Queues - Lab\StacksandQueuesLab\8.TrafficJam\obj\Debug\net6.0\refint\8.TrafficJam.dll
+G:\programi\c# uprajneniq\C# Advanced\Official course\Stacks and Queues - Lab\StacksandQueuesLab\8.TrafficJam\obj\Debug\net6.0\8.TrafficJam.pdb
+G:\programi\c# uprajneniq\C# Advanced\Official course\Stacks and Queues - Lab\StacksandQueuesLab\8.TrafficJam\obj\Debug\net6.0\8.TrafficJam.genruntimeconfig.cache
+G:\programi\c# uprajneniq\C# Advanced\Official course\Stacks and Queues - Lab\StacksandQueuesLab\8.TrafficJam\obj\Debug\net6.0\ref\8.TrafficJam.dll

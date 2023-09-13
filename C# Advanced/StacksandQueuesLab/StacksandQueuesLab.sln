@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7.HotPotato", "7.HotPotato\7.HotPotato.csproj", "{439FE0B1-4BF7-4295-9487-ACE6285D5F5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.TrafficJam", "8.TrafficJam\8.TrafficJam.csproj", "{DA1E7EFC-4D29-43AC-AE05-902B8333906D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{439FE0B1-4BF7-4295-9487-ACE6285D5F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439FE0B1-4BF7-4295-9487-ACE6285D5F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439FE0B1-4BF7-4295-9487-ACE6285D5F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439FE0B1-4BF7-4295-9487-ACE6285D5F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA1E7EFC-4D29-43AC-AE05-902B8333906D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1E7EFC-4D29-43AC-AE05-902B8333906D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1E7EFC-4D29-43AC-AE05-902B8333906D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1E7EFC-4D29-43AC-AE05-902B8333906D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D170624-B87F-439C-A7D8-C3E013416BF3}
+	EndGlobalSection
+EndGlobal
