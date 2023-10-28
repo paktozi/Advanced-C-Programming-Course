@@ -1,0 +1,14 @@
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\NeedForSpeed\bin\Debug\net6.0\NeedForSpeed.exe
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\NeedForSpeed\bin\Debug\net6.0\NeedForSpeed.deps.json
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\NeedForSpeed\bin\Debug\net6.0\NeedForSpeed.runtimeconfig.json
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\NeedForSpeed\bin\Debug\net6.0\NeedForSpeed.dll
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\NeedForSpeed\bin\Debug\net6.0\NeedForSpeed.pdb
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\NeedForSpeed\obj\Debug\net6.0\NeedForSpeed.GeneratedMSBuildEditorConfig.editorconfig
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\NeedForSpeed\obj\Debug\net6.0\NeedForSpeed.AssemblyInfoInputs.cache
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\NeedForSpeed\obj\Debug\net6.0\NeedForSpeed.AssemblyInfo.cs
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\NeedForSpeed\obj\Debug\net6.0\NeedForSpeed.csproj.CoreCompileInputs.cache
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\NeedForSpeed\obj\Debug\net6.0\NeedForSpeed.dll
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\NeedForSpeed\obj\Debug\net6.0\refint\NeedForSpeed.dll
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\NeedForSpeed\obj\Debug\net6.0\NeedForSpeed.pdb
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\NeedForSpeed\obj\Debug\net6.0\NeedForSpeed.genruntimeconfig.cache
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\NeedForSpeed\obj\Debug\net6.0\ref\NeedForSpeed.dll
