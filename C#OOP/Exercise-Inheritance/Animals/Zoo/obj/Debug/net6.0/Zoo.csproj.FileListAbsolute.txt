@@ -1,0 +1,14 @@
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Zoo\obj\Debug\net6.0\Zoo.GeneratedMSBuildEditorConfig.editorconfig
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Zoo\obj\Debug\net6.0\Zoo.AssemblyInfoInputs.cache
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Zoo\obj\Debug\net6.0\Zoo.AssemblyInfo.cs
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Zoo\obj\Debug\net6.0\Zoo.csproj.CoreCompileInputs.cache
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Zoo\bin\Debug\net6.0\Zoo.exe
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Zoo\bin\Debug\net6.0\Zoo.deps.json
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Zoo\bin\Debug\net6.0\Zoo.runtimeconfig.json
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Zoo\bin\Debug\net6.0\Zoo.dll
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Zoo\bin\Debug\net6.0\Zoo.pdb
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Zoo\obj\Debug\net6.0\Zoo.dll
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Zoo\obj\Debug\net6.0\refint\Zoo.dll
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Zoo\obj\Debug\net6.0\Zoo.pdb
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Zoo\obj\Debug\net6.0\Zoo.genruntimeconfig.cache
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Zoo\obj\Debug\net6.0\ref\Zoo.dll
