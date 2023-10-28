@@ -1,0 +1,14 @@
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\PlayersAndMonsters\bin\Debug\net6.0\PlayersAndMonsters.exe
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\PlayersAndMonsters\bin\Debug\net6.0\PlayersAndMonsters.deps.json
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\PlayersAndMonsters\bin\Debug\net6.0\PlayersAndMonsters.runtimeconfig.json
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\PlayersAndMonsters\bin\Debug\net6.0\PlayersAndMonsters.dll
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\PlayersAndMonsters\bin\Debug\net6.0\PlayersAndMonsters.pdb
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\PlayersAndMonsters\obj\Debug\net6.0\PlayersAndMonsters.GeneratedMSBuildEditorConfig.editorconfig
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\PlayersAndMonsters\obj\Debug\net6.0\PlayersAndMonsters.AssemblyInfoInputs.cache
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\PlayersAndMonsters\obj\Debug\net6.0\PlayersAndMonsters.AssemblyInfo.cs
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\PlayersAndMonsters\obj\Debug\net6.0\PlayersAndMonsters.csproj.CoreCompileInputs.cache
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\PlayersAndMonsters\obj\Debug\net6.0\PlayersAndMonsters.dll
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\PlayersAndMonsters\obj\Debug\net6.0\refint\PlayersAndMonsters.dll
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\PlayersAndMonsters\obj\Debug\net6.0\PlayersAndMonsters.pdb
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\PlayersAndMonsters\obj\Debug\net6.0\PlayersAndMonsters.genruntimeconfig.cache
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\PlayersAndMonsters\obj\Debug\net6.0\ref\PlayersAndMonsters.dll
