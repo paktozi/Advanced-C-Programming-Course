@@ -1,0 +1,14 @@
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Person\obj\Debug\net6.0\Person.GeneratedMSBuildEditorConfig.editorconfig
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Person\obj\Debug\net6.0\Person.AssemblyInfoInputs.cache
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Person\obj\Debug\net6.0\Person.AssemblyInfo.cs
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Person\obj\Debug\net6.0\Person.csproj.CoreCompileInputs.cache
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Person\bin\Debug\net6.0\Person.exe
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Person\bin\Debug\net6.0\Person.deps.json
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Person\bin\Debug\net6.0\Person.runtimeconfig.json
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Person\bin\Debug\net6.0\Person.dll
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Person\bin\Debug\net6.0\Person.pdb
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Person\obj\Debug\net6.0\Person.dll
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Person\obj\Debug\net6.0\refint\Person.dll
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Person\obj\Debug\net6.0\Person.pdb
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Person\obj\Debug\net6.0\Person.genruntimeconfig.cache
+G:\programi\c# uprajneniq\C#OOP\Exercise-Inheritance\01. Person_Skeleton_6.0\Person\obj\Debug\net6.0\ref\Person.dll
