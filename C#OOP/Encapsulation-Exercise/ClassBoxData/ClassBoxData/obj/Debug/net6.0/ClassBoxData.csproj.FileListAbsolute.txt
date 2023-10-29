@@ -1,0 +1,14 @@
+G:\programi\c# uprajneniq\C#OOP\Encapsulation-Exercise\ClassBoxData\ClassBoxData\obj\Debug\net6.0\ClassBoxData.GeneratedMSBuildEditorConfig.editorconfig
+G:\programi\c# uprajneniq\C#OOP\Encapsulation-Exercise\ClassBoxData\ClassBoxData\obj\Debug\net6.0\ClassBoxData.AssemblyInfoInputs.cache
+G:\programi\c# uprajneniq\C#OOP\Encapsulation-Exercise\ClassBoxData\ClassBoxData\obj\Debug\net6.0\ClassBoxData.AssemblyInfo.cs
+G:\programi\c# uprajneniq\C#OOP\Encapsulation-Exercise\ClassBoxData\ClassBoxData\obj\Debug\net6.0\ClassBoxData.csproj.CoreCompileInputs.cache
+G:\programi\c# uprajneniq\C#OOP\Encapsulation-Exercise\ClassBoxData\ClassBoxData\bin\Debug\net6.0\ClassBoxData.exe
+G:\programi\c# uprajneniq\C#OOP\Encapsulation-Exercise\ClassBoxData\ClassBoxData\bin\Debug\net6.0\ClassBoxData.deps.json
+G:\programi\c# uprajneniq\C#OOP\Encapsulation-Exercise\ClassBoxData\ClassBoxData\bin\Debug\net6.0\ClassBoxData.runtimeconfig.json
+G:\programi\c# uprajneniq\C#OOP\Encapsulation-Exercise\ClassBoxData\ClassBoxData\bin\Debug\net6.0\ClassBoxData.dll
+G:\programi\c# uprajneniq\C#OOP\Encapsulation-Exercise\ClassBoxData\ClassBoxData\bin\Debug\net6.0\ClassBoxData.pdb
+G:\programi\c# uprajneniq\C#OOP\Encapsulation-Exercise\ClassBoxData\ClassBoxData\obj\Debug\net6.0\ClassBoxData.dll
+G:\programi\c# uprajneniq\C#OOP\Encapsulation-Exercise\ClassBoxData\ClassBoxData\obj\Debug\net6.0\refint\ClassBoxData.dll
+G:\programi\c# uprajneniq\C#OOP\Encapsulation-Exercise\ClassBoxData\ClassBoxData\obj\Debug\net6.0\ClassBoxData.pdb
+G:\programi\c# uprajneniq\C#OOP\Encapsulation-Exercise\ClassBoxData\ClassBoxData\obj\Debug\net6.0\ClassBoxData.genruntimeconfig.cache
+G:\programi\c# uprajneniq\C#OOP\Encapsulation-Exercise\ClassBoxData\ClassBoxData\obj\Debug\net6.0\ref\ClassBoxData.dll
