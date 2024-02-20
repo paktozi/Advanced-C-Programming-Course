@@ -1,0 +1,10 @@
+function slove(grade) {
+    if (grade >= 5.5) {
+        console.log('Excellent');
+    }
+    else {
+        console.log('Not excellent');
+    }
+}
+
+slove(5.5);
