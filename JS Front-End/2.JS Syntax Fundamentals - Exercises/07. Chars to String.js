@@ -1,5 +1,5 @@
-function slove(a,b,c) {
+function solve(a,b,c) {
     let word=a+b+c;  
     console.log(word);
 }
-slove('a','b','c');
+solve('a','b','c');

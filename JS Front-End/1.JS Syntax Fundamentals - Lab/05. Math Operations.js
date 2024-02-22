@@ -1,4 +1,4 @@
-function slove(numA, numB, sing) {
+function solve(numA, numB, sing) {
 
     switch (sing) {
         case '+': console.log(numA + numB); break;
@@ -10,4 +10,4 @@ function slove(numA, numB, sing) {
     }
 }
 
-slove(3,5.5,'*');
+solve(3,5.5,'*');

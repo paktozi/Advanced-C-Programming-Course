@@ -1,4 +1,4 @@
-function slove(input) {
+function solve(input) {
     if (typeof input === 'number') {
         console.log((Math.PI * (input * input)).toFixed(2));
     }
@@ -7,4 +7,4 @@ function slove(input) {
     }
 }
 
-slove(5);
+solve(5);

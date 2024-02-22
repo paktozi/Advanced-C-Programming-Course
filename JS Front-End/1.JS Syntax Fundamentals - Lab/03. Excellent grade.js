@@ -1,4 +1,4 @@
-function slove(grade) {
+function solve(grade) {
     if (grade >= 5.5) {
         console.log('Excellent');
     }
@@ -7,4 +7,4 @@ function slove(grade) {
     }
 }
 
-slove(5.5);
+solve(5.5);

@@ -1,4 +1,4 @@
-function slove(numberOfPeople, typeOfGroup, dayOfWeek) {
+function solve(numberOfPeople, typeOfGroup, dayOfWeek) {
     let totalSum = 0;
     let price = 0;
     switch (typeOfGroup) {
@@ -47,4 +47,4 @@ function slove(numberOfPeople, typeOfGroup, dayOfWeek) {
     }
     console.log(`Total price: ${totalSum.toFixed(2)}`);
 }
-slove(30, 'Students', 'Sunday');
+solve(30, 'Students', 'Sunday');

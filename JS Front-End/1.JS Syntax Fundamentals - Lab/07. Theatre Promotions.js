@@ -1,4 +1,4 @@
-function slove(day, age) {
+function solve(day, age) {
 
     if (age >= 0 && age <= 18) {
         switch (day) {

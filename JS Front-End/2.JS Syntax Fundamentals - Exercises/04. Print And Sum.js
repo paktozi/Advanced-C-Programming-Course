@@ -1,4 +1,4 @@
-function slove(numA,numB) {
+function solve(numA,numB) {
     let numbers = '';
     let totSum = 0;
     for (let i = numA; i <= numB; i++){
@@ -8,4 +8,4 @@ function slove(numA,numB) {
     console.log(numbers);
     console.log(`Sum: ${totSum}`);
 }
-slove(5,10);
+solve(5,10);

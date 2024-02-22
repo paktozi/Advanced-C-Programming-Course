@@ -1,4 +1,4 @@
-function slove(year) {
+function solve(year) {
     if (year % 4 == 0&&year%100!=0||year%400==0) {
         console.log('yes');
     }
@@ -6,4 +6,4 @@ function slove(year) {
         console.log('no');
     }
 }
-slove(1900);
+solve(1900);

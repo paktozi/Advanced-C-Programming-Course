@@ -1,4 +1,4 @@
-function slove(num) {
+function solve(num) {
     let result = 0;
     let numToStr = num.toString();
     for (let i = 0; i < numToStr.length; i++){
@@ -6,4 +6,4 @@ function slove(num) {
     }
     console.log(result);
 }
-slove(12345);
+solve(12345);

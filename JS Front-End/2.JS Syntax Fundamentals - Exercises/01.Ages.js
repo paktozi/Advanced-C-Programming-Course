@@ -1,4 +1,4 @@
-function slove(age) {
+function solve(age) {
 
     if (age >= 0 && age <= 2) {
         console.log('baby');
@@ -19,4 +19,4 @@ function slove(age) {
         console.log('out of bounds');
     }
 }
-slove(-1);
+solve(-1);

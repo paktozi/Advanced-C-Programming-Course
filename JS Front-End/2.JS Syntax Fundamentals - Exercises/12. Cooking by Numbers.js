@@ -1,4 +1,4 @@
-function slove(num, a, b, c, d, e) {
+function solve(num, a, b, c, d, e) {
     let list = [];
     list.push(a);
     list.push(b);
@@ -18,5 +18,5 @@ function slove(num, a, b, c, d, e) {
         console.log(num);
     }
 }
-slove(32, 'chop', 'chop', 'chop', 'chop', 'chop');
-slove(9, 'dice', 'spice', 'chop', 'bake', 'fillet');
+solve(32, 'chop', 'chop', 'chop', 'chop', 'chop');
+solve(9, 'dice', 'spice', 'chop', 'bake', 'fillet');

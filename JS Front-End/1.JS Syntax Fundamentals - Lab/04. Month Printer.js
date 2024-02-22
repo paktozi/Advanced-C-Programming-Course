@@ -1,4 +1,4 @@
-function slove(month) {
+function solve(month) {
     switch (month) {
         case 1: console.log('January'); break;
         case 2: console.log('February');break;
@@ -16,4 +16,4 @@ function slove(month) {
     }
 }
 
-slove(2);
+solve(2);

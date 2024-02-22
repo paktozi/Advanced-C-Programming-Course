@@ -1,4 +1,4 @@
-function slove(input) {
+function solve(input) {
     let strNum = input.toString();
     let totSum = 0;
     let isSame = true;
@@ -14,4 +14,4 @@ function slove(input) {
     console.log(isSame);
     console.log(totSum);
 }
-slove(1234);
+solve(1234);

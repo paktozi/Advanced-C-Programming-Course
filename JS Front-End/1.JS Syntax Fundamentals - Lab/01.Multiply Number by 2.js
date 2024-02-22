@@ -1,5 +1,5 @@
-function slove(num) {
+function solve(num) {
     console.log(num*2);
 }
 
-slove(20);
+solve(20);
