@@ -151,49 +151,54 @@ CREATE DATABASE Movies
 CREATE TABLE Directors
 (
 Id INT PRIMARY KEY IDENTITY,
-DirectorName VARCHAR(50)NOT NULL,
+DirectorName VARCHAR(40)NOT NULL,
 Notes VARCHAR(MAX)
 );
 
-CREATE TABLE Genres(
-Id INT PRIMARY KEY IDENTITY,
-GenreName VARCHAR(50)NOT NULL UNIQUE,
-Notes VARCHAR(MAX)
-);
 
-CREATE TABLE Categories 
+CREATE TABLE Genres
 (
 Id INT PRIMARY KEY IDENTITY,
-CategoryName VARCHAR(50) NOT NULL UNIQUE,
+GenreName VARCHAR(40)NOT NULL,
 Notes VARCHAR(MAX)
 );
 
-CREATE TABLE Movies(
+CREATE TABLE Categories
+(
 Id INT PRIMARY KEY IDENTITY,
-Title VARCHAR(50)NOT NULL UNIQUE,
-DirectorId INT FOREIGN KEY REFERENCES Directors(Id) ,
-CopyrightYear DATETIME2 NOT NULL,
-[Length] INT NOT NULL,
-GenreId INT NOT NULL,
-CategoryId INT FOREIGN KEY REFERENCES Categories (Id) ,
-Rating DECIMAL(2,1),
-Notes VARCHAR(MAX));
+CategoryName VARCHAR(40)NOT NULL,
+Notes VARCHAR(MAX)
+);
 
-INSERT INTO Categories 
-VALUES
-(1,'Comedy')
-,(2,'Action')
-,(3,'Biography')
-,(4,'Thriller')
-,(5,'Sci-Fi')
+CREATE TABLE Movies
+(
+   Id INT PRIMARY KEY IDENTITY,
+   Title VARCHAR(40)NOT NULL,
+   DirectorId INT FOREIGN KEY REFERENCES Directors(Id),
+   CopyrightYear DATETIME2,
+   Length INT,
+   GenreId INT FOREIGN KEY REFERENCES Genres(Id),
+   CategoryId INT FOREIGN KEY REFERENCES Categories(Id),
+   Rating INT,
+   Notes VARCHAR(MAX)
+);
 
-INSERT INTO Genres
+
+INSERT INTO Categories(CategoryName)
 VALUES
-(1,'Childrens Films')
-,(2,'Teen Films')
-,(3,'Adult Films')
-,(4,'Blockbuster')
-,(5,'Independent ')
+('Comedy')
+,('Action')
+,('Biography')
+,('Thriller')
+,('Sci-Fi')
+
+INSERT INTO Genres(GenreName)
+VALUES
+('Childrens Films')
+,('Teen Films')
+,('Adult Films')
+,('Blockbuster')
+,('Independent ')
 
 
 INSERT INTO Directors (DirectorName) 
@@ -210,28 +215,50 @@ VALUES
 ('ScarFace',4,'01-02-1995',120,5,2)
 ,('Good Will Hunting',5,'01-02-1997',120,4,3)
 ,(' Shawshank Redemption',3,'01-03-1991',140,3,4)
-,('Blade Runner',4,'02-02-2020',1150,2,5)
-,('The Good, the Bad and the Ugly',4,'01-03-1990',127,1,1)
+,('Blade Runner',1,'02-02-2020',1150,2,5)
+,('The Good, the Bad and the Ugly',2,'01-03-1990',127,1,1)
 
-
-SELECT*FROM Movies
 
 
 --14. Car Rental Database
 
-
 CREATE DATABASE CarRental
+
 
 CREATE TABLE Categories
 (
-   Id INT PRIMARY KEY IDENTITY,
-   CategoryName VARCHAR(50)NOT NULL,
-   DailyRate VARCHAR(30) DEFAULT '',
-   WeeklyRate VARCHAR(30) DEFAULT '',
-   MonthlyRate VARCHAR(30) DEFAULT '',
-    WeekendRate VARCHAR(30) DEFAULT ''
-
+Id INT PRIMARY KEY IDENTITY,
+CategoryName VARCHAR(30)NOT NULL,
+DailyRate VARCHAR(MAX),
+WeeklyRate VARCHAR(MAX),
+MonthlyRate VARCHAR(MAX),
+WeekendRate VARCHAR(MAX)
 );
+
+
+CREATE TABLE Employees
+(
+Id INT PRIMARY KEY IDENTITY,
+FirstName VARCHAR(25) NOT NULL,
+LastName VARCHAR(25) NOT NULL,
+Title VARCHAR(30),
+Notes VARCHAR(MAX)
+);
+
+
+
+CREATE TABLE Customers
+(
+Id INT PRIMARY KEY IDENTITY,
+DriverLicenceNumber VARCHAR(20) UNIQUE NOT NULL,
+FullName VARCHAR(40) NOT NULL,
+[Address] VARCHAR(100),
+City VARCHAR(40),
+ZIPCode INT,
+Notes VARCHAR(MAX)
+);
+
+
 
 CREATE TABLE Cars
 (
@@ -240,42 +267,182 @@ PlateNumber VARCHAR(20)NOT NULL UNIQUE,
 Manufacturer VARCHAR(30)NOT NULL,
 Model VARCHAR(30) NOT NULL,
 CarYear DATETIME2,
-CategoryId INT NOT NULL,
-Doors TINYINT NOT NULL,
+CategoryId INT FOREIGN KEY REFERENCES Categories(Id)NOT NULL,
+Door TINYINT,
 Picture VARBINARY(MAX),
-Condition VARCHAR(20) NOT NULL,
-Available BIT,
-)
-
-
-CREATE TABLE Employees(
-Id INT PRIMARY KEY IDENTITY,
-FirstName VARCHAR(30) NOT NULL,
-LastName VARCHAR(30) NOT NULL,
-Title VARCHAR(30),
-Notes VARCHAR(MAX) DEFAULT '',
+Condition VARCHAR(20),
+Available BIT
 );
 
-
-CREATE TABLE Customers
+CREATE TABLE RentalOrders
 (
 Id INT PRIMARY KEY IDENTITY,
-DriverLicenceNumber VARCHAR(30) NOT NULL UNIQUE,
-FullName VARCHAR(30)NOT NULL,
-Address VARCHAR(200),
-City VARCHAR(20),
-ZIPCode VARCHAR(10),
-Notes VARCHAR(MAX) DEFAULT ''
+EmployeeId INT FOREIGN KEY REFERENCES Employees(Id) NOT NULL,  
+CustomerId INT FOREIGN KEY REFERENCES Customers(Id) NOT NULL,
+CarId INT FOREIGN KEY REFERENCES Cars(Id) NOT NULL,
+TankLevel INT,
+KilometrageStart INT,
+KilometrageEnd INT,
+TotalKilometrage INT,
+StartDate DATETIME2,
+EndDate DATETIME2,
+TotalDays INT,
+RateApplied INT,
+TaxRate DECIMAL,
+OrderStatus BIT,
+Notes VARCHAR(MAX),
 );
 
+INSERT INTO Categories(CategoryName)
+VALUES
+('A')
+,('C')
+,('B+E')
 
-CREATE TABLE RentalOrders(
-Id INT PRIMARY KEY IDENTITY,
-EmployeeId INT NOT NULL,
-CustomerId INT NOT NULL,
-CarId INT NOT NULL,
-TankLevel VARCHAR(10),
-);
+INSERT INTO Employees(FirstName,LastName)
+VALUES
+('IVO','IVOV')
+,('ICO','ICOV')
+,('GOSHO','GOSHOV')
+
+INSERT INTO Customers(DriverLicenceNumber,FullName)
+VALUES
+('88DF5GG','MANOL I')
+,('3EW5GG','GORAN V')
+,('67DF5RF','KRUM U')
+
+INSERT INTO Cars(PlateNumber,Manufacturer,Model,CategoryId)
+VALUES
+('IE 346 DF','NISSAN','QASHQAI',1)
+,('DD 236 DE','MAZDA','PRIMACY',2)
+,('YT 2D6 WQF','NISSAN','ROGUE',3)
+
+
+INSERT INTO RentalOrders(EmployeeId,CustomerId,CarId)
+VALUES
+(2,1,3)
+,(3,3,2)
+,(1,2,1)
+
+--15. Hotel Database
+
+CREATE TABLE Employees(
+Id INT PRIMARY KEY IDENTITY NOT NULL,
+FirstName VARCHAR(50),
+LastName VARCHAR(50),
+Title VARCHAR(50),
+Notes VARCHAR(MAX)
+)
+ 
+INSERT INTO Employees
+VALUES
+('Velizar', 'Velikov', 'Receptionist', 'Nice customer'),
+('Ivan', 'Ivanov', 'Concierge', 'Nice one'),
+('Elisaveta', 'Bagriana', 'Cleaner', 'Poetesa')
+ 
+CREATE TABLE Customers(
+Id INT PRIMARY KEY IDENTITY NOT NULL,
+AccountNumber BIGINT,
+FirstName VARCHAR(50),
+LastName VARCHAR(50),
+PhoneNumber VARCHAR(15),
+EmergencyName VARCHAR(150),
+EmergencyNumber VARCHAR(15),
+Notes VARCHAR(100)
+)
+ 
+INSERT INTO Customers
+VALUES
+(123456789, 'Ginka', 'Shikerova', '359888777888', 'Sistry mi', '7708315342', 'Kinky'),
+(123480933, 'Chaika', 'Stavreva', '359888777888', 'Sistry mi', '7708315342', 'Lawer'),
+(123454432, 'Mladen', 'Isaev', '359888777888', 'Sistry mi', '7708315342', 'Wants a call girl')
+ 
+CREATE TABLE RoomStatus(
+Id INT PRIMARY KEY IDENTITY NOT NULL,
+RoomStatus BIT,
+Notes VARCHAR(MAX)
+)
+ 
+INSERT INTO RoomStatus(RoomStatus, Notes)
+VALUES
+(1,'Refill the minibar'),
+(2,'Check the towels'),
+(3,'Move the bed for couple')
+ 
+CREATE TABLE RoomTypes(
+RoomType VARCHAR(50) PRIMARY KEY,
+Notes VARCHAR(MAX)
+)
+ 
+INSERT INTO RoomTypes (RoomType, Notes)
+VALUES
+('Suite', 'Two beds'),
+('Wedding suite', 'One king size bed'),
+('Apartment', 'Up to 3 adults and 2 children')
+ 
+CREATE TABLE BedTypes(
+BedType VARCHAR(50) PRIMARY KEY,
+Notes VARCHAR(MAX)
+)
+ 
+INSERT INTO BedTypes
+VALUES
+('Double', 'One adult and one child'),
+('King size', 'Two adults'),
+('Couch', 'One child')
+ 
+CREATE TABLE Rooms (
+RoomNumber INT PRIMARY KEY IDENTITY NOT NULL,
+RoomType VARCHAR(50) FOREIGN KEY REFERENCES RoomTypes(RoomType),
+BedType VARCHAR(50) FOREIGN KEY REFERENCES BedTypes(BedType),
+Rate DECIMAL(6,2),
+RoomStatus NVARCHAR(50),
+Notes NVARCHAR(MAX)
+)
+ 
+INSERT INTO Rooms (Rate, Notes)
+VALUES
+(12,'Free'),
+(15, 'Free'),
+(23, 'Clean it')
+ 
+CREATE TABLE Payments(
+Id INT PRIMARY KEY IDENTITY NOT NULL,
+EmployeeId INT FOREIGN KEY REFERENCES Employees(Id),
+PaymentDate DATE,
+AccountNumber BIGINT,
+FirstDateOccupied DATE,
+LastDateOccupied DATE,
+TotalDays AS DATEDIFF(DAY, FirstDateOccupied, LastDateOccupied),
+AmountCharged DECIMAL(14,2),
+TaxRate DECIMAL(8, 2),
+TaxAmount DECIMAL(8, 2),
+PaymentTotal DECIMAL(15, 2),
+Notes VARCHAR(MAX)
+)
+ 
+INSERT INTO Payments (EmployeeId, PaymentDate, AmountCharged)
+VALUES
+(1, '12/12/2018', 2000.40),
+(2, '12/12/2018', 1500.40),
+(3, '12/12/2018', 1000.40)
+ 
+CREATE TABLE Occupancies(
+Id  INT PRIMARY KEY IDENTITY NOT NULL,
+EmployeeId INT FOREIGN KEY REFERENCES Employees(Id),
+DateOccupied DATE,
+AccountNumber BIGINT,
+RoomNumber INT FOREIGN KEY REFERENCES Rooms(RoomNumber),
+RateApplied DECIMAL(6,2),
+PhoneCharge DECIMAL(6,2),
+Notes VARCHAR(MAX)
+)
+ 
+INSERT INTO Occupancies (EmployeeId, RateApplied, Notes) VALUES
+(1, 55.55, 'too'),
+(2, 15.55, 'much'),
+(3, 35.55, 'typing')
+
 
 
 --16. Create SoftUni Database
@@ -305,11 +472,73 @@ CREATE TABLE Employees(
 Id INT PRIMARY KEY IDENTITY,
 FirstName VARCHAR(30)NOT NULL,
 MiddleName VARCHAR(30),
-LastName VARCHAR(30) NOT NULL,
+LastName VARCHAR(30),
 JobTitle VARCHAR(30) NOT NULL,
 DepartmentId INT NOT NULL FOREIGN KEY REFERENCES Departments(Id),
 HireDate DATETIME2,
 Salary DECIMAL(8,2),
-AddressId INT NOT NULL FOREIGN KEY REFERENCES Addresses(Id)
+AddressId INT  FOREIGN KEY REFERENCES Addresses(Id)
 );
+
+
+INSERT INTO Towns
+VALUES
+('Sofia')
+,('Plovdiv')
+,('Varna')
+,('Burgas')
+
+INSERT INTO Departments
+VALUES
+('Engineering')
+,('Sales')
+,('Marketing')
+,('Software Developmen')
+,('Quality Assurance')
+
+
+INSERT INTO Employees(FirstName,JobTitle,DepartmentId,HireDate,Salary)
+VALUES
+('IVAN','.NET Developer','Software Development','01/02/2013',3500.00)
+,('Petar','Senior Engineer','Engineering','02/03/2004',4000.00)
+,('Maria','Intern','Quality Assurance','28/08/2016',525.25)
+,('Georgi','CEO','Sales','02/03/2004',4000.00)
+,('Peter','Senior Engineer','Engineering','02/03/2004',4000.00)
+
+
+--19. Basic Select All Fields
+
+SELECT*FROM  Towns
+SELECT*FROM  Departments
+SELECT*FROM  Employees
+
+
+--20. Basic Select All Fields and Order Them
+
+SELECT*FROM  Towns ORDER BY [NAME]
+SELECT*FROM  Departments ORDER BY [NAME]
+SELECT*FROM  Employees ORDER BY Salary DESC
+
+--21. Basic Select Some Fields
+
+SELECT [NAME] FROM  Towns ORDER BY [NAME]
+SELECT [NAME] FROM  Departments ORDER BY [NAME]
+SELECT FirstName, LastName, JobTitle, Salary  FROM  Employees ORDER BY Salary DESC
+
+--22. Increase Employees Salary
+
+UPDATE Employees
+SET Salary*=1.10
+
+SELECT Salary FROM Employees
+
+--23. Decrease Tax Rate
+
+UPDATE Payments
+SET TaxRate*=0.97
+SELECT TaxRate FROM Payments
+
+--24. Delete All Records
+
+DELETE FROM Occupancies
 
