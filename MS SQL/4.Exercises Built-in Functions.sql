@@ -158,3 +158,48 @@ ORDER BY [Start],[Name]
   SELECT Username,IpAddress FROM Users
   WHERE IpAddress LIKE '___.1_%._%.___'
   ORDER BY Username
+
+
+  --17. Show All Games with Duration and Part of the Day
+
+
+	  SELECT [Name],[Part Of the Day]=
+	  CASE
+	  WHEN DATEPART(HOUR,[Start])<12 THEN 'Morning'
+	  WHEN DATEPART(HOUR,[Start])<18 THEN 'Afternoon'
+	  ELSE 'Evening'
+	  END,
+	  [Duration]=
+	  CASE
+	  WHEN [Duration]<=3 THEN 'Extra Short'
+	  WHEN[Duration]<=6 THEN 'Short'
+	  WHEN [DURATION]>6 THEN 'Long'
+	  ELSE 'Extra Long'
+
+	  END
+
+	  FROM Games
+	  ORDER BY [Name],[Duration],[Part Of the Day]
+
+	  --18. Orders Table
+
+	  CREATE TABLE Orders
+	  (
+	  Id INT PRIMARY KEY IDENTITY,
+	  ProductName VARCHAR(40) ,
+	  OrderDate DATETIME2 
+	  );
+
+	  INSERT INTO Orders
+	  VALUES
+	  ('Butter',GETDATE()),
+	   ('Milk',GETDATE()),
+	    ('Cheese',GETDATE()),
+		 ('Bread',GETDATE()),
+		  ('Tomatoes',GETDATE())
+
+
+SELECT ProductName, OrderDate,
+	DATEADD(DAY, 3, OrderDate) AS [Pay Due],
+	DATEADD(MONTH, 1, OrderDate) AS [Delivery Due]
+FROM Orders
